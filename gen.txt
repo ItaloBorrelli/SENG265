@@ -1,0 +1,9 @@
+branches 10
+angle 1
+scale .3
+depth 4
+
+branches 6
+angle 1.0471975511965976 ie pi/3
+scale .5
+depth 6
