@@ -1,0 +1,7 @@
+python lines_to_svg.py square.txt > square.svg
+python lines_to_svg.py x.txt > x.svg
+python generate_polygon.py 0 250 6 > hexagon.txt
+python lines_to_svg.py hexagon.txt > hexagon.svg
+python rotate_scale_translate.py -f 0.1 -x 0 -y 200 hexagon.txt > hexagons1.txt
+python rotate_scale_translate.py -a 0.5235987755982988 -n 12 hexagons1.txt > hexagons2.txt
+python lines_to_svg.py hexagons2.txt > hexagons.svg
